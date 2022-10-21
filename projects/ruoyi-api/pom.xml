@@ -186,6 +186,12 @@
                 <version>${ruoyi.version}</version>
             </dependency>
 
+            <!--临床技能中心模块-->
+            <dependency>
+                <groupId>com.ruoyi</groupId>
+                <artifactId>ruoyi-center</artifactId>
+                <version>${ruoyi.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -196,6 +202,7 @@
         <module>ruoyi-quartz</module>
         <module>ruoyi-generator</module>
         <module>ruoyi-common</module>
+        <module>ruoyi-center</module>
     </modules>
     <packaging>pom</packaging>
 
