@@ -15,7 +15,6 @@
         临床技能中心模块
     </description>
 
-    <!--通用工具-->
     <dependencies>
 
         <!--通用工具-->
@@ -24,5 +23,17 @@
             <artifactId>ruoyi-common</artifactId>
         </dependency>
 
+
+        <!--框架核心-->
+        <dependency>
+            <groupId>com.ruoyi</groupId>
+            <artifactId>ruoyi-framework</artifactId>
+        </dependency>
+
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
 </project>
